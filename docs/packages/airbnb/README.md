@@ -1,4 +1,4 @@
-# Neutrino Airbnb Preset
+ # Neutrino Airbnb Preset
 
 `@neutrinojs/airbnb` is a Neutrino preset that supports linting React projects with Airbnb's ESLint
 config, following the [Airbnb styleguide](https://github.com/airbnb/javascript).
@@ -259,7 +259,7 @@ const { Neutrino } = require('neutrino');
 // Even if using .neutrinorc.js, you must specify it when using
 // the API
 module.exports = Neutrino()
-  .use('.neutrinorc.js')
+  .use(__dirname + '/.neutrinorc.js')
   .call('eslintrc');
 ```
 
